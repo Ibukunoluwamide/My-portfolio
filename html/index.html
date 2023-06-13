@@ -6,19 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
     <title>My Portfolio</title>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
         <div class="container">
-            <a class="navbar-brand" href="#">Olamide</a>
-            <button class="navbar-toggler border border-white " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="" role="button" ><i class="fa fa-bars" aria-hidden="true" style="color:#e6e6ff"></i></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto">
+            <a class="navbar-brand fs-3 fw-bold" href="#">Olamide</a>
+            <span class="navbar-toggler fs-1" role="button" data-bs-toggle="collapse"  data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars" aria-hidden="true" style="color:#e6e6ff"></i></span>
+            <div class="collapse navbar-collapse mt-3" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto gap-2 fs-5">
                     <li class="nav-item active">
                         <a class="nav-link" href="#home">Home</a>
                     </li>
@@ -55,7 +53,7 @@
     <!-- about section-->
     <section id="about">
         <div class="container mt-4 pt-4">
-            <h1 class="text-center">About Me</h1>
+            <h1 class="text-center text-primary" >About <span style="text-decoration: underline;">Me</span></h1>
             <div class="row mt-4">
                 <div class="col-md-4">
                     <img src="/img/profile-img.jpg" alt="" width="100%">
@@ -82,5 +80,123 @@
         </div>
     </section>
 
+  <!-- Service Section -->
+    <section id="services">
+        <div class="container mt-4">
+            <h1 class="text-center text-primary">Services</h1>
+            <div class="row">
+                <div class="col-lg-3 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class="fas servicesIcon fa-clock"></i>
+                            <h4 class="card-title mt-3">Website Development</h4>
+                            <p class="card-text mt-3"> I have a deep understanding of front-end and back-end development, allowing me to create dynamic and interactive websites tailored to my clients' needs.From e-commerce platforms to content management systems, I possess the skills to build custom web applications that are both visually appealing and highly functional.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+                <div class="col-lg-3 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-layer-group'></i>
+                            <h4 class="card-title mt-3">Website Design</h4>
+                            <p class="card-text mt-3">With a keen eye for aesthetics and user experience, I provide top-notch web design services. I collaborate closely with clients to understand their branding and design preferences, crafting visually captivating and intuitive interfaces. My designs are not only visually pleasing but also optimized for user engagement and conversion
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-lg-3 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='far servicesIcon fa-check-circle'></i>
+                            <h4 class="card-title mt-3">Website Deployment</h4>
+                            <p class="card-text mt-3">I ensure that websites are properly configured and optimized for performance, ensuring they are ready to be launched and accessed by users. 
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-lg-3 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-search'></i>
+                            <h4 class="card-title mt-3">SEO(Search Engine Optimization)</h4>
+                            <p class="card-text mt-3">I provide SEO services to improve website's search engine rankings.Through meticulous keyword research, on-page optimization, and content optimization, I enhance the website's visibility on search engines. 
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+
+            </div>
+
+          
+        </div>
+    </section>
+
+
+    <!-- portfolio section-->
+    <section id="portfolio">
+        <div class="container-fluid mt-5">
+            <h1 class="text-center mb-4">Portfolio</h1>
+            <div class="row">
+                <div class="card col-lg-6 mb-3">
+                    <div class="row">
+                      <div class="col-md-4">
+                        <a href="#"><img src="../img/profile-img.jpg" class="img-fluid" alt="..."></a>
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                
+                <div class="card col-lg-6 mb-3">
+                    <div class="row">
+                      <div class="col-md-4">
+                        <a href="#"><img src="../img/profile-img.jpg" class="img-fluid" alt="..."></a>
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="card col-lg-6 mb-3">
+                    <div class="row">
+                      <div class="col-md-4">
+                        <a href="#"><img src="../img/profile-img.jpg" class="img-fluid" alt="..."></a>
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="card col-lg-6 mb-3">
+                    <div class="row">
+                      <div class="col-md-4">
+                        <a href="#"><img src="../img/profile-img.jpg" class="img-fluid" alt="..."></a>
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+            </div>
+    </section>
+    <script src="../scripts/script.js"></script>
 </body>
 </html>

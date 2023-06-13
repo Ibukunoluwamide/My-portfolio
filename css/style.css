@@ -2,12 +2,14 @@
 .navbar li a, .navbar-brand{
     color: #fff;
 }
+.navbar li a:hover, .navbar-brand:hover{
+    color: #009ee3;
+}
 /* hero background image */
 .bgimage{
     height:100vh;
     background: url('https://img.freepik.com/premium-photo/technology-hitech-3d-background-3d-illustration-futuristic-backdrop-design-abstract-object-element-f_262243-1759.jpg');
     background-size:cover;
-    position:relative;
 }
 /* text css above hero image*/
 .hero_title {
@@ -49,4 +51,34 @@
     100% {
         filter:blur(0);
     }
+}
+
+/* services section css */
+.servicesText{
+    cursor: pointer;
+    height: 100%;
+    transition: 500ms linear; 
+}
+.servicesText:hover {
+    transform: scale(1.02)
+}
+
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title, .card-text {
+    text-align: center;
+}
+
+.card:hover .servicesIcon {
+    color: #009ee3;
+}
+.servicesText:hover {
+    border: 1px solid #009ee3;
+}
+
+.navbarScroll.navbarDark {
+    background-color: #0f2a33;
 }
