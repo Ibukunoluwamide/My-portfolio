@@ -54,13 +54,16 @@
 }
 
 /* services section css */
-.servicesText{
+.servicesText.card{
     cursor: pointer;
     height: 100%;
     transition: 500ms linear; 
+    box-shadow: 0px 5px 3px #9c9c9c;
+
+
 }
 .servicesText:hover {
-    transform: scale(1.02)
+    transform: scale(1.05)
 }
 
 .servicesIcon {
@@ -81,4 +84,37 @@
 
 .navbarScroll.navbarDark {
     background-color: #0f2a33;
+}
+
+/* Portfolio Section */
+#portfolio .card{
+    transition: 500ms linear; 
+    box-shadow: 0px 3px 3px #9c9c9c;
+}
+#portfolio .card:hover{
+    transform: scale(1.05)
+}
+
+/* Contact section */
+#contact .form-control{
+    /* box-shadow: none !important; */
+    box-shadow: 0px 2px 3px #0022e3;
+    border: none !important;
+}
+
+
+/* Footer Section */
+/* social media icons styling */
+.social-icons {
+    font-size: 2rem;
+    top: 50%;
+}
+
+/* spacing on all sections */
+#about, #services, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+#contact {
+    padding-bottom: 4rem;
 }
