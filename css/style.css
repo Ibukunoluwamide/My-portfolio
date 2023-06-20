@@ -5,6 +5,16 @@
 .navbar li a:hover, .navbar-brand:hover{
     color: #009ee3;
 }
+
+.navbarScroll.navbarDark {
+    background-color: #fff;
+    box-shadow:0px 0px 5px 3px #979595 ;
+
+}
+.navbarScroll.navbarDark li a{
+    color: black !important;
+    /* color: #fff; */
+}
 /* hero background image */
 .bgimage{
     height:100vh;
@@ -78,13 +88,9 @@
 .card:hover .servicesIcon {
     color: #009ee3;
 }
-.servicesText:hover {
-    border: 1px solid #009ee3;
-}
 
-.navbarScroll.navbarDark {
-    background-color: #0f2a33;
-}
+
+
 
 /* Portfolio Section */
 #portfolio .card{
@@ -107,7 +113,8 @@
 /* social media icons styling */
 .social-icons {
     font-size: 1.5rem;
-    top: 50%;
+    top: 60%;
+    
 }
 .social-icons ul li a:hover {
     font-size: 1.9rem;
@@ -121,3 +128,14 @@
 #contact {
     padding-bottom: 4rem;
 }
+
+/* MODE */
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+/* .light-mode {
+    background-color: #f2f2f2;
+    color: black;
+} */
