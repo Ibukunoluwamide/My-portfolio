@@ -2,307 +2,416 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./img/OLA_TECH logo.png" type="image/x-icon">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-        crossorigin="anonymous"></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="../css/style.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <title>My Portfolio</title>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <title>Alao Olamide -Portfolio</title>
 </head>
 
-<body >
-    <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
-        <div class="container">
-            <a class="navbar-brand fs-3 fw-bold" href="#">
-                <img src="./img/OLA_TECH logo.png" alt="" srcset="" width="50px" class="rounded">
-            </a>
-            <span class="navbar-toggler fs-1" role="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation"><i class="fa fa-bars" aria-hidden="true"
-                    style="color: initial"></i></span>
-            <div class="collapse navbar-collapse mt-3" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto fs-5">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#services">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <i id="switcher" class="fa-solid fa-moon fa-beat fs-3 nav-link" onclick="switchMode()" style="color: #fff; cursor: pointer;" ></i>
-                    </li>
+<body>
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
+  <i class="bi bi-list mobile-nav-toggle d-lg-none"></i>
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex flex-column justify-content-center">
+
+    <nav id="navbar" class="navbar nav-menu">
+      <ul>
+        <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+        <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+        <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a>
+        </li>
+        <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li>
+        <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+      </ul>
+    </nav><!-- .nav-menu -->
+
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center">
+    <div class="container" data-aos="zoom-in" data-aos-delay="100">
+      <h1>Olamide Alao</h1>
+      <p>I'm <span class="typed" data-typed-items="Designer, Web Developer, Freelancer"></span></p>
+      <div class="social-links">
+        <a href="https://twitter.com/alaoolamide11" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="https://www.facebook.com/olamide.alao.92754/" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="https://wa.me/2349013820574" class="whatsapp"><i class="bx bxl-whatsapp"></i></a>
+        <a href="https://www.linkedin.com/in/olamidealao/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        <a href="https://github.com/Ibukunoluwamide" class="github"><i class="bx bxl-github"></i></a>
+      </div>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>About</h2>
+          <p style="font-size: 1.1rem;"> I am a talented and dedicated full-stack web developer with a strong passion
+            for creating
+            engaging and user-friendly digital experiences.I have immersed myself in various programming
+            languages and technologies, mastering HTML, CSS, JavaScript, React, and Node.
+          </p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content">
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Name:</strong> <span>Alao Olamide</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+234 9013820574</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Lagos, Nigeria</span></li>
                 </ul>
-
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>22 May</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>olamidealao22@gmail.com</span>
+                  </li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
+                </ul>
+              </div>
             </div>
+            <p style="font-size: 1.1rem;"> As a full-stack web developer, I continue to expand my skill set, staying up
+              to date with
+              the latest industry trends and technologies. With my strong foundation and unwavering
+              commitment to excellence, I am poised to make a significant impact in the web development
+              landscape, delivering innovative and intuitive digital experiences for users across the
+              globe.
+            </p>
+          </div>
         </div>
-    </nav>
+      </div>
 
-    <!-- main-->
-    <section class="bgimage" id="home">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12 hero-text">
-                    <h2 class="hero_title">Hi, I'm Olamide</h2>
-                    <p class="hero_desc">I am a fullstack web developer</p>
+      </div>
+    </section><!-- End About Section -->
+
+
+
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Skills</h2>
+        </div>
+
+        <div class="row skills-content">
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill">HTML <i class="val">100%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
                 </div>
+              </div>
             </div>
-        </div>
-    </section>
 
-    <!-- about section-->
-    <section id="about">
-        <div class="container mt-4 pt-4">
-            <h1 class="text-center text-primary">About <span style="text-decoration: underline;">Me</span></h1>
-            <div class="row mt-4">
+            <div class="progress">
+              <span class="skill">CSS <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">JavaScript <i class="val">70%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill">PHP <i class="val">60%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+            <!-- <div class="progress">
+              <span class="skill">WordPress/CMS <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">React<i class="val">55%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div> -->
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Skills Section -->
+
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Portfolio</h2>
+        </div>
+
+        <div class="row g-2">
+          <div class="col-lg-6">
+            <div class="card">
+              <div class="row g-0">
                 <div class="col-md-4">
-                    <img src="/img/profile-img.jpg" alt="" width="100%" class="rounded">
+                  <img src="./assets/img/portfolio/OTCA.png" class="img-fluid rounded-start" alt="..." style="height: 100%;">
                 </div>
-                <div class="col-lg-8">
-                    <p> I am a talented and dedicated full-stack web developer with a strong passion for creating
-                        engaging and user-friendly digital experiences.I have immersed myself in various programming
-                        languages and technologies, mastering HTML, CSS, JavaScript, React, and Node.
-                    </p>
-
-                    <div>
-                        <ul>
-                            <li>Name: Alao Olamide</li>
-                            <li>Age: 18</li>
-                            <li>Occupation: Web Developer</li>
-
-                        </ul>
-                    </div>
-
-                    <div>
-                        <p> As a full-stack web developer, I continue to expand my skill set, staying up to date with
-                            the latest industry trends and technologies. With my strong foundation and unwavering
-                            commitment to excellence, I am poised to make a significant impact in the web development
-                            landscape, delivering innovative and intuitive digital experiences for users across the
-                            globe.
-                        </p>
-                    </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold text-uppercase">OTCA e-commerce</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                      additional content. This content is a little bit longer.</p>
+                  </div>
+                  <p class="card-text"><a href="https://otca2.netlify.app" class="card-link"><button type="button"
+                        class="btn btn-link">Link</button></a></p>
                 </div>
+              </div>
             </div>
-        </div>
-    </section>
+          </div>
 
-    <!-- Service Section -->
-    <section id="services">
-        <div class="container mt-4">
-            <h1 class="text-center">Services</h1>
-            <div class="row">
-                <div class="col-lg-3 mt-4">
-                    <div class="card servicesText">
-                        <div class="card-body">
-                            <i class="fas servicesIcon fa-clock"></i>
-                            <h4 class="card-title mt-3">Website Development</h4>
-                            <p class="card-text mt-3"> I have a deep understanding of front-end and back-end
-                                development, allowing me to create dynamic and interactive websites tailored to my
-                                clients' needs.From e-commerce platforms to content management systems, I possess the
-                                skills to build custom web applications that are both visually appealing and highly
-                                functional.
-                            </p>
-                        </div>
-                    </div>
+          <div class="col-lg-6">
+            <div class="card">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="./assets/img/portfolio/olapaybankapp.png" class="img-fluid rounded-start" alt="..." style="height: 100%;">
                 </div>
-                <div class="col-lg-3 mt-4">
-                    <div class="card servicesText">
-                        <div class="card-body">
-                            <i class='fas servicesIcon fa-layer-group'></i>
-                            <h4 class="card-title mt-3">Website Design</h4>
-                            <p class="card-text mt-3">With a keen eye for aesthetics and user experience, I provide
-                                top-notch web design services. I collaborate closely with clients to understand their
-                                branding and design preferences, crafting visually captivating and intuitive interfaces.
-                                My designs are not only visually pleasing but also optimized for user engagement and
-                                conversion
-                            </p>
-                        </div>
-                    </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold text-uppercase">Olapay Bank app</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                      additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><a href="https://ola-paybankapp.netlify.app" class="card-link"><button
+                          type="button" class="btn btn-link">Link</button></a></p>
+                  </div>
                 </div>
-
-                <div class="col-lg-3 mt-4">
-                    <div class="card servicesText">
-                        <div class="card-body">
-                            <i class='far servicesIcon fa-check-circle'></i>
-                            <h4 class="card-title mt-3">Website Deployment</h4>
-                            <p class="card-text mt-3">I ensure that websites are properly configured and optimized for
-                                performance, ensuring they are ready to be launched and accessed by users.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 mt-4">
-                    <div class="card servicesText">
-                        <div class="card-body">
-                            <i class='fas servicesIcon fa-search'></i>
-                            <h4 class="card-title mt-3">SEO(Search Engine Optimization)</h4>
-                            <p class="card-text mt-3">I provide SEO services to improve website's search engine
-                                rankings.Through meticulous keyword research, on-page optimization, and content
-                                optimization, I enhance the website's visibility on search engines.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
+              </div>
             </div>
-
-
-        </div>
-    </section>
-
-
-    <!-- portfolio section-->
-    <section id="portfolio">
-        <div class="container-fluid mt-5">
-            <h1 class="text-center mb-4">Portfolio</h1>
-            <div class="row row-cols-1 row-cols-md-2 g-4">
-                <div class="col-lg-3">
-                    <div class="card">
-                        <a href="https://otca2.netlify.app"><img src="./img/OTCA.png" class="card-img-top"
-                                alt="OTCA"></a>
-                        <div class="card-body">
-                            <h5 class="card-title text-uppercase">E-commerce</h5>
-                            <p class="card-text"> E-commerce app that is responsive, intuitive, and optimized for
-                                performance, helping businesses drive sales and establish a strong online presence.</p>
-                        </div>
-                    </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="card">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="./assets/img/portfolio/GPA-Calculator.png" class="img-fluid rounded-start" alt="..." style="height: 100%;">
                 </div>
-                <div class="col-lg-3">
-                    <div class="card">
-                        <a href="https://ola-paybankapp.netlify.app"><img src="./img/olapaybankapp.png"
-                                class="card-img-top" alt="olapaybankapp"></a>
-                        <div class="card-body">
-                            <h5 class="card-title text-uppercase">Bank app</h5>
-                            <p class="card-text">A Bank app that is secure and reliable platforms that enable users to
-                                manage their accounts, make transactions, and access banking services conveniently. </p>
-                        </div>
-                    </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold text-uppercase">GPA Calculator</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                      additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><a href="https://ola-gpacalculator.netlify.app" class="card-link"><button
+                          type="button" class="btn btn-link">Link</button></a></p>
+                  </div>
                 </div>
-                <div class="col-lg-3">
-                    <div class="card">
-                        <a href="https://ola-gpacalculator.netlify.app"><img src="./img/GPA-Calculator.png"
-                                class="card-img-top" alt="GPA-Calculator"></a>
-                        <div class="card-body">
-                            <h5 class="card-title text-uppercase">GPA-Calculator</h5>
-                            <p class="card-text">GPA Calculator automatically calculates the overall GPA, taking into
-                                account weighted grades if necessary.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="card">
-                        <a href="https://ola-weatherappchecker.netlify.app"><img src="./img/weather-app-checker.png"
-                                class="card-img-top" alt="..."></a>
-                        <div class="card-body">
-                            <h5 class="card-title text-uppercase">Weather Checker</h5>
-                            <p class="card-text"> Weather Checker that displays current weather conditions, temperature,
-                                forecasts, and other relevant weather data.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="card">
-                        <a href="https://ibukunoluwamide.github.io/Simple-E-commerce-app/"><img src="./img/simple e-commerce app.png"
-                                class="card-img-top" alt="..."></a>
-                        <div class="card-body">
-                            <h5 class="card-title text-uppercase">Simple E-commerce App</h5>
-                            <p class="card-text"> Simple E-commerce that allows users to upload new products, view and displays back to the users.</p>
-                        </div>
-                    </div>
-                </div>
-               <div class="col-lg-3">
-                <div class="card">
-                    <a href="https://ibukunoluwamide.github.io/tic-tac-toe/"><img src="./img/tic-tac-toe.png"
-                            class="card-img-top" alt="..."></a>
-                    <div class="card-body">
-                        <h5 class="card-title text-uppercase">Tic tac toe game</h5>
-                        <p class="card-text"> Tic Tac Toe is free classic puzzle game for two players, who take turns marking the spaces in a 3x3 grid. The player who succeeded in placing three respective marks in a horizontal, vertical, or diagonal row wins the game</p>
-                    </div>
-                </div>
-               </div>
+              </div>
             </div>
-    </section>
-
-    <!-- contact section-->
-    <section id="contact">
-        <div class="container mt-5 contactContent">
-            <h1 class="text-center mb-2 text-primary">Contact <span style="text-decoration: underline;">Me</span></h1>
-
-            <div class="row mt-4">
-                <div class="col-lg-6">
-                    <div style="overflow:hidden;max-width:100%;width:500px;height:500px;">
-                        <div id="gmap-canvas" style="height:100%; width:100%;max-width:100%;"><iframe
-                                style="height:100%;width:100%;border:0;" frameborder="0"
-                                src="https://www.google.com/maps/embed/v1/place?q=Nigeria&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
-                        </div><a class="googlemaps-made" rel="nofollow" href="https://www.bootstrapskins.com/themes"
-                            id="grab-map-authorization">premium bootstrap themes</a>
-                    </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="card">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="./assets/img/portfolio/tic-tac-toe.png" class="img-fluid rounded-start" alt="..." style="height: 100%;">
                 </div>
-
-                <div class="col-lg-6 mt-3 mt-lg-0">
-                    <form action="https://wa.me/2349013820574">
-                        <input type="text" class="form-control form-control-lg" placeholder="Name" required>
-                        <input type="email" class="form-control mt-2" placeholder="Email" required>
-                        <input type="text" class="form-control mt-2" placeholder="Subject" required>
-                        <textarea name="" id="" class="form-control mt-2" rows="5" placeholder="Project Details"></textarea>
-                        <button type="submit" class="btn btn-primary mt-2">Submit</button>
-                    </form>
-                    
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold text-uppercase">Tic tac toe game</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                      additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><a href="ttps://ibukunoluwamide.github.io/tic-tac-toe/"
+                        class="card-link"><button type="button" class="btn btn-link">Link</button></a></p>
+                  </div>
                 </div>
-                
+              </div>
             </div>
+          </div>
         </div>
-    </section>
+      </div>
+    </section><!-- End Portfolio Section -->
 
-    <!-- footer section -->
-    <footer id="footer">
-        <div class="social-icons fixed-top">
-            <ul class="list-unstyled p-2">
-                <li>
-                    <a href="https://www.facebook.com/olamide.alao.92754/">
-                        <i class="fab fa-facebook fa-beat"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://wa.me/2349013820574">
-                        <i class="fab fa-square-whatsapp fa-beat" style="color: #006d5b;"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/olamidealao/">
-                        <i class="fab fa-linkedin fa-beat"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://twitter.com/alaoolamide11">
-                        <i class="fab fa-twitter fa-beat" style="color: #0077B5;"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://github.com/Ibukunoluwamide">
-                        <i class="fab fa-github fa-beat" style="color: #000;"></i>
-                    </a>
-                </li>
-            </ul>
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Services</h2>
         </div>
-    </footer>
-    <script src="../scripts/script.js"></script>
+
+        <div class="row">
+          <div class="col-lg-3 mt-4">
+              <div class="card servicesText">
+                  <div class="card-body">
+                      <i class="fas servicesIcon fa-clock"></i>
+                      <h4 class="card-title mt-3">Website Development</h4>
+                      <p class="card-text mt-3"> I have a deep understanding of front-end and back-end
+                          development, allowing me to create dynamic and interactive websites tailored to my
+                          clients' needs.From e-commerce platforms to content management systems, I possess the
+                          skills to build custom web applications that are both visually appealing and highly
+                          functional.
+                      </p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-3 mt-4">
+              <div class="card servicesText">
+                  <div class="card-body">
+                      <i class='fas servicesIcon fa-layer-group'></i>
+                      <h4 class="card-title mt-3">Website Design</h4>
+                      <p class="card-text mt-3">With a keen eye for aesthetics and user experience, I provide
+                          top-notch web design services. I collaborate closely with clients to understand their
+                          branding and design preferences, crafting visually captivating and intuitive interfaces.
+                          My designs are not only visually pleasing but also optimized for user engagement and
+                          conversion
+                      </p>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-lg-3 mt-4">
+              <div class="card servicesText">
+                  <div class="card-body">
+                      <i class='far servicesIcon fa-check-circle'></i>
+                      <h4 class="card-title mt-3">Website Deployment</h4>
+                      <p class="card-text mt-3">I ensure that websites are properly configured and optimized for
+                          performance, ensuring they are ready to be launched and accessed by users.
+                      </p>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-lg-3 mt-4">
+              <div class="card servicesText">
+                  <div class="card-body">
+                      <i class='fas servicesIcon fa-search'></i>
+                      <h4 class="card-title mt-3">SEO(Search Engine Optimization)</h4>
+                      <p class="card-text mt-3">I provide SEO services to improve website's search engine
+                          rankings.Through meticulous keyword research, on-page optimization, and content
+                          optimization, I enhance the website's visibility on search engines.
+                      </p>
+                  </div>
+              </div>
+          </div>
+
+      </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+        </div>
+        <div class="row mt-4">
+          <div class="col-lg-6">
+              <div style="overflow:hidden;max-width:100%;width:500px;height:500px;">
+                  <div id="gmap-canvas" style="height:100%; width:100%;max-width:100%;"><iframe
+                          style="height:100%;width:100%;border:0;" frameborder="0"
+                          src="https://www.google.com/maps/embed/v1/place?q=Nigeria&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+                  </div><a class="googlemaps-made" rel="nofollow" href="https://www.bootstrapskins.com/themes"
+                      id="grab-map-authorization">premium bootstrap themes</a>
+              </div>
+          </div>
+
+          <div class="col-lg-6 mt-3 mt-lg-0">
+              <form action="#">
+                  <input type="text" class="form-control form-control-lg" placeholder="Name" required>
+                  <input type="email" class="form-control mt-2" placeholder="Email" required>
+                  <input type="text" class="form-control mt-2" placeholder="Subject" required>
+                  <textarea name="" id="" class="form-control mt-2" rows="5" placeholder="Project Details"></textarea>
+                  <button type="submit" class="btn btn-primary mt-2">Submit</button>
+              </form>
+              
+          </div>
+          
+      </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="social-links">
+        <a href="https://twitter.com/alaoolamide11" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="https://www.facebook.com/olamide.alao.92754/" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="https://wa.me/2349013820574" class="whatsapp"><i class="bx bxl-whatsapp"></i></a>
+        <a href="https://www.linkedin.com/in/olamidealao/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        <a href="https://github.com/Ibukunoluwamide" class="github"><i class="bx bxl-github"></i></a>
+      </div>
+     
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
 </body>
 
 </html>
