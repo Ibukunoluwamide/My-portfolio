@@ -13,7 +13,7 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-      'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY'
+      'service_w07wr1h', 'portfolio_vba4ac7', form.current, 'o8oS_U2sA-8BBfhsa'
       )
       .then(
         (result) => {
@@ -25,7 +25,7 @@ const Contact = () => {
         },
         (error) => {
           console.log(error.text);
-          toast.error(error.text);
+          toast.error("Error. try again!");
         }
       );
   };
@@ -60,7 +60,7 @@ const Contact = () => {
               type="email"
               name="user_email"
               pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$"
-              placeholder="Email Id"
+              placeholder="Email"
               required
               className="border border-slate-600 p-3 rounded"
             />

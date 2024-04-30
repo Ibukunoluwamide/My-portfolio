@@ -23,7 +23,10 @@ const Hero = () => {
           <h2>{hero.title}</h2>
           <br />
           <div className="flex justify-end">
+            <a href="mailto:olamidealao22@gmail.com">
             <button className="btn">{hero.btnText}</button>
+
+            </a>
           </div>
           <div className="flex flex-col gap-10 mt-10">
             {hero.hero_content.map((content, i) => (

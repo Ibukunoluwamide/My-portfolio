@@ -95,7 +95,7 @@ const Skills = () => {
               </div>
               <div>
                 <h6>{skill.name}</h6>
-                <p className="italic">{skill.para}</p>
+                {/* <p className="italic">{skill.para}</p> */}
                 <div
                   onClick={() => {
                     setSelectSkill(skill);
