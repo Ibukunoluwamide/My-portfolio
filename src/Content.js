@@ -2,6 +2,7 @@
 import Hero_person from "./assets/images/Hero/person.png";
 
 import js from "./assets/images/Skills/js.png";
+import laravel from "./assets/images/Skills/laravel.svg";
 import reactjs from "./assets/images/Skills/react.png";
 import nodejs from "./assets/images/Skills/node.png";
 import php from "./assets/images/Skills/php.png";
@@ -17,6 +18,7 @@ import project3 from "./assets/images/Projects/olapaybankapp.png";
 import project4 from "./assets/images/Projects/react-weatherapp.png";
 import project5 from "./assets/images/Projects/budget-app.png";
 import project6 from "./assets/images/Projects/tic-tac-toe.png";
+import project7 from "./assets/images/Projects/pos.png";
 import person_project from "./assets/images/Projects/person.png";
 
 import Hireme_person from "./assets/images/Hireme/person.png";
@@ -76,8 +78,8 @@ export const content = {
     subtitle: "MY TOP SKILLS",
     skills_content: [
       {
-        name: "JavaScript",
-        logo: js,
+        name: "Laravel",
+        logo: laravel,
       },
       {
         name: "ReactJS",
@@ -125,6 +127,11 @@ export const content = {
     image: person_project,
     project_content: [
       {
+        title: "Inventory Management System",
+        image: project7,
+        link: "https://zektrack.com.ng"
+      },
+      {
         title: "E-commerce Website",
         image: project1,
         link: "https://otca2.netlify.app"
@@ -148,12 +155,7 @@ export const content = {
         title: "Budget Application",
         image: project5,
         link: "https://budget-app-five-ochre.vercel.app"
-      },
-      {
-        title: "Tic Tac Toe  Game",
-        image: project6,
-        link: "https://ibukunoluwamide.github.io/tic-tac-toe"
-      },
+      }
     ],
   },
   Hireme: {
@@ -191,11 +193,11 @@ export const content = {
       {
         text: "@olamidealao",
         icon: BsWhatsapp,
-        link: "https://wa.me/2349157288288",
+        link: "https://wa.me/2349013820574",
       },
     ],
   },
   Footer: {
-    text: "All © Copyright Reserved 2024",
+    text: "All © Copyright Reserved 2025",
   },
 };

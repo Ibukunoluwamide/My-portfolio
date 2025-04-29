@@ -30,7 +30,7 @@ const App = () => {
       <Contact />
       <footer className="p-3 text-center">
         <h6 className="mb-3">OLAMIDE ALAO</h6>
-        <p>abbeyvista © All CopyRights Reserved 2024</p>
+        <p>abbeyvista © All CopyRights Reserved {new Date().getFullYear()}</p>
       </footer>
     </div>
   );
