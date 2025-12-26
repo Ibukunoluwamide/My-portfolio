@@ -12,14 +12,13 @@ import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
 import services_logo3 from "./assets/images/Services/logo3.png";
 
-import project1 from "./assets/images/Projects/OTCA.png";
-import project2 from "./assets/images/Projects/GPA-Calculator.png";
-import project3 from "./assets/images/Projects/olapaybankapp.png";
-import project4 from "./assets/images/Projects/react-weatherapp.png";
-import project5 from "./assets/images/Projects/budget-app.png";
-import project6 from "./assets/images/Projects/tic-tac-toe.png";
-import project7 from "./assets/images/Projects/pos.png";
-import person_project from "./assets/images/Projects/person.png";
+import project1 from "./assets/images/Projects/ims-dashboard.png";
+import project1_2 from "./assets/images/Projects/ims-pos.png";
+import project1_3 from "./assets/images/Projects/ims-products.png";
+import project2_1 from "./assets/videos/ecommerce-demo.mp4";
+import project3 from "./assets/images/Projects/admin-dashboard.png";
+import project3_2 from "./assets/images/Projects/admin-users.png";
+import project3_3 from "./assets/images/Projects/user-dashboard.png";
 
 import Hireme_person from "./assets/images/Hireme/person.png";
 import Hireme_person2 from "./assets/images/Hireme/person2.png";
@@ -123,41 +122,47 @@ export const content = {
   },
   Projects: {
     title: "Projects",
-    subtitle: "MY CREATION",
-    image: person_project,
+    subtitle: "SELECTED WORK",
     project_content: [
       {
         title: "Inventory Management System",
-        image: project7,
-        link: "https://zektrack.com.ng"
+        description: `A full-featured inventory and stock management system built for businesses to track products, sales, and reports in real time.
+Demo Login:
+Email: admin@admin.com
+Password: password123`, media: [
+          { type: "image", src: project1 },
+          { type: "image", src: project1_2 },
+          { type: "image", src: project1_3 },
+        ],
+        link: "https://inventory.zektrack.com.ng",
+        stack: ["Laravel", "MySQL", "React", "Shadcn UI"],
       },
       {
-        title: "E-commerce Website",
-        image: project1,
-        link: "https://otca2.netlify.app"
+        title: "E-commerce Platform",
+        description:
+          "A modern e-commerce application with product management, shopping cart, and order flow.",
+        media: [
+          // { type: "image", src: project2 },
+          { type: "video", src: project2_1 },
+        ],
+        // link: "https://otca2.netlify.app",
+        stack: ["React", "Laravel", "MySQL", "MUI"],
       },
       {
-        title: "GPA Calculator",
-        image: project2,
-        link: "https://ola-gpacalculator.netlify.app"
+        title: "Laravel Admin Dashboard",
+        description:
+          "A reusable Laravel admin dashboard starter with authentication, roles, CRUD modules, and clean UI.",
+        media: [
+          { type: "image", src: project3 },
+          { type: "image", src: project3_2 },
+          { type: "image", src: project3_3 },
+        ],
+        github: "https://github.com/Ibukunoluwamide",
+        stack: ["Laravel", "React", "MySQL", "MUI"],
       },
-      {
-        title: "Bank Application",
-        image: project3,
-        link: "https://ola-paybankapp.netlify.app"
-      },
-      {
-        title: "Weather Checker",
-        image: project4,
-        link: "https://react-weatherapp-sooty.vercel.app"
-      },
-      {
-        title: "Budget Application",
-        image: project5,
-        link: "https://budget-app-five-ochre.vercel.app"
-      }
     ],
   },
+
   Hireme: {
     title: "Hire Me",
     subtitle: "FOR YOUR PROJECTS",

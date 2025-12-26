@@ -1,42 +1,66 @@
-![MacBook Air - 2 (3)](https://user-images.githubusercontent.com/75136330/203812467-8b00176d-9d31-4c09-86c0-8b82b8c661eb.png)
-![127 0 0 1_5173_ (1)](https://user-images.githubusercontent.com/75136330/203812531-baeb4957-5c7d-4222-a07a-2805b278bdbf.png)
+👋 Hi, I’m Alao Olamide
 
-# React Portfolio 2
-### Vite + React + tailwind
+I’m a FullStack Developer who enjoys building scalable, secure, and well-structured web applications. I specialize in Laravel and love turning ideas into reliable backend systems that power great user experiences.
 
-```bash 
-npm i
-npm run dev
-```
-## You Learn:
-+ react js hooks
-+ folder structure
-+ tailwind css
-+ swiper js
-+ react icons
-+ react js packages (ex:react-modal)
-+ email js
-+ aos scroll animation
-+ and more....
+This portfolio showcases some of my work, skills, and the type of solutions I enjoy building.
 
-## youtube video link
-[Watch now](https://youtu.be/YpFK4hUZ-NM)
+🧑‍💻 About Me
 
-## live preview link
-[See Now](https://codeaprogram-portfolio.web.app/)
+FullStack Developer
 
-## Startup repository link
-[Repository](https://github.com/Sridhar-C-25/React_portfolio_2_startup)
+Experience building RESTful APIs, authentication systems, dashboards, and CRUD applications
 
-## packages:
-+ [tailwind css](https://tailwindcss.com/docs/installation)
-+ [vite js](https://vitejs.dev/guide/)
-+ [swiper js](https://swiperjs.com/get-started)
-+ [email js](https://www.emailjs.com/docs/)
-+ [Aos (animation)](https://michalsnik.github.io/aos/)
-+ [react modal](https://www.npmjs.com/package/react-modal)
-+ [react-hot-toast](https://react-hot-toast.com/docs)
-+ [react icons](https://react-icons.github.io/react-icons/)
+Strong interest in clean code, maintainability, and scalability
+
+Comfortable working with teams and collaborating with frontend developers
+
+Always learning and improving my craft
+
+🛠️ Tech Stack
+
+Frontend: React, Tailwind CSS, Material UI concepts
+
+Backend: PHP, Laravel, Nodejs
+
+Database: MySQL, Mongodb
+
+Tools: Git, GitHub, REST APIs
 
 
+🚀 What I Can Build
 
+Backend systems for web applications
+
+RESTful APIs
+
+Admin dashboards
+
+Authentication & authorization systems
+
+Database-driven applications
+
+
+📈 How I Work
+
+Write clean, readable, and maintainable code
+
+Follow best practices and conventions
+
+Focus on performance, security, and scalability
+
+Communicate clearly and deliver on time
+
+📬 Contact Me
+
+If you’d like to work together or have an opportunity for me:
+
+Email: olamidealao22@gmail.com
+
+GitHub: https://github.com/Ibukunoluwamide
+
+Portfolio: https://abbeyvista.vercel.app
+
+⭐ Final Note
+
+I’m always open to learning, collaborating, and taking on new challenges.
+Thanks for checking out my portfolio!

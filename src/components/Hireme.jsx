@@ -1,46 +1,30 @@
 import { content } from "../Content";
+import { FiSend } from "react-icons/fi"; 
 
 const Hireme = () => {
   const { Hireme } = content;
 
   return (
-    <section className="bg-bg_light_primary">
-      <div className="md:container px-5 pt-14">
-        <h2 className="title" data-aos="fade-down">
+    <section className=" text-white py-20 px-6">
+      <div className="max-w-4xl mx-auto text-center">
+        <h2 className="title text-4xl md:text-5xl font-bold mb-4" data-aos="fade-down">
           {Hireme.title}
         </h2>
-        <h4 className="subtitle" data-aos="fade-down">
+        <h4 className="subtitle text-xl md:text-2xl mb-6" data-aos="fade-down" data-aos-delay="150">
           {Hireme.subtitle}
         </h4>
-        <br />
-        <div className="flex items-center md:flex-row flex-col-reverse ">
-          <img
-            src={Hireme.image1}
-            alt="..."
-            data-aos="fade-right"
-            className="max-w-sm md:block hidden"
-          />
-          <img
-            src={Hireme.image2}
-            data-aos="fade-up"
-            alt="..."
-            className="max-w-sm md:hidden"
-          />
-          <div
-            data-aos="fade-left"
-            className="border-2 border-dark_primary max-w-sm
-           p-6 shadow-sm rounded-xl rounded-br-[8rem] sm:min-w-[22rem]"
-          >
-            <p className="leading-7">{Hireme.para}</p>
-            <br />
-            <a href="mailto:olamidealao22@gmail.com">
-            <button className="btn bg-dark_primary text-white">
-              {Hireme.btnText}
-            </button>
 
-            </a>
-          </div>
-        </div>
+        <p className="text-gray-200 leading-7 mb-10" data-aos="fade-up" data-aos-delay="300">
+          {Hireme.para}
+        </p>
+
+        <a href="mailto:olamidealao22@gmail.com" data-aos="zoom-in" data-aos-delay="450">
+          <button className="btn flex items-center justify-center gap-2 bg-white text-dark_primary hover:bg-gray-100 px-8 py-4 text-lg font-semibold rounded-xl transition-all shadow-lg">
+            {Hireme.btnText} <FiSend size={20} />
+          </button>
+        </a>
+
+        {/* Optional abstract background */}
       </div>
     </section>
   );
